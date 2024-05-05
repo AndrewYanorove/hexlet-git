@@ -1,6 +1,0 @@
-def generate_new_mail(email):
-	login= email.split('@')
-   	return f"{login}@progress.ru"
-
-user_email = input()
-print(generate_new_mail(user_email))
